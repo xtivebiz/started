@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .logo {
+  color: #00907a;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.header nav ul li a:hover {
+  background-color: #00907a;
+  color: lightcyan;
+  transition: all 0.5s;
+}
+
+.body {
+  background-color: green;
+  height: 200px;
+}
+
+.footer {
+  background-color: gray;
+  height: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */
